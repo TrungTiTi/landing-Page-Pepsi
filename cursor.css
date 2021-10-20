@@ -1,0 +1,142 @@
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;                                            
+    background: linear-gradient(rgb(226, 224, 90),rgb(233, 223, 167));
+    opacity: 0.5;   
+    transition-duration: 600ms;
+     /* mix-blend-mode: difference; */
+    transition-timing-function: ease-out;
+}
+ 
+.link-home{
+    transform: scale(2);
+    background-image: url("./img/Web\ 1920\ –\ 1@2x.png");
+    background-position: center;
+    background-size: cover;
+    /* mix-blend-mode: difference; */
+    opacity: 1;
+}
+/* hover chuyển cursor */
+.link-hover{
+    transform: scale(2.5);
+    background: rgba(255, 255, 255, 0.900);
+    /* mix-blend-mode: difference; */
+    opacity: 1;
+}
+
+.zero{
+    background-image: url("./img/pepsi-cherry-v2.png");
+    border-radius: 0;
+    transform: scale(5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1;
+}
+.one{
+    background-image: url("./img/Pepsi-Zero-Wild-Cherry-12oz-refreshed-v2.png");
+    border-radius: 0;
+    transform: scale(5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1;
+}
+.two{
+    background-image: url("./img/pepsi-mango.png");
+    border-radius: 0;
+    transform: scale(5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1;
+}
+.three{
+    background-image: url("./img/pepsi-zero-sugar-mango.png");
+    border-radius: 0;
+    transform: scale(5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1;
+}
+.four{
+    background-image: url("./img/Pepsi-Cherry-v3_12oz.png");
+    border-radius: 0;
+    transform: scale(5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1;
+}
+/*  */
+.video{
+    background: #151724;
+    display: flex;
+    justify-content: space-around;
+}
+.video video{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.last{
+    background-image: url(./img/bg-1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    text-align: center;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.last .last-span{
+    font-size: 50px;
+    color: #2b1111;
+}
+.last p{
+    font-size: 20px;
+}
+.last img{
+    width: 200px;
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 50%;
+}
+.last img:hover{
+    transform: scale(1.2);
+}
+.last-box{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    /* height: 400px; */
+    /* margin-top: auto; */
+    box-sizing: border-box;
+    padding: 100px;
+    text-align: center;
+    color: wheat;
+    font-family: cursive;
+}
+.footer span{
+    font-size: 80px;
+}
+.footer p{
+    font-size: 20px;
+}
+/* chuyển cursor footer */
+.five{
+    background-image: url("./img/Web\ 1920\ –\ 1@2x.png");
+    border-radius: 0;
+    transform: scale(5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    opacity: 1;
+}

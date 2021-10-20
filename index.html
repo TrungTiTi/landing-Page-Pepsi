@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gsap.css">
+    <link rel="stylesheet" href="cursor.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+  
+    <title>Document</title>
+</head>
+<body>
+    <div class="cursor"></div> 
+    <!-- animation text -->
+    <div class="intro-header">
+      <h1 class="intro-text"></h1>
+    </div>
+    <!-- background img -->
+    <div class="intro-img">
+      <img src="./img/img-background.png" alt="anh" class="intro-img-background"></img> 
+    </div>
+    <!-- main text -->
+    <div class="main">
+      <div class="main-left">
+        <h1 class="text-home">TiTwo</h1>
+        <p class="text-hover">About</p>
+        <p class="text-hover">Portfolio</p>
+        <p class="text-hover">Contact</p>
+      </div>
+      <div class="main-center">
+        <span class="span-one">THAT'S WHAT</span>
+        <span class="span-two">I LIKE</span>
+        <span class="span-three">
+          Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod <br />
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  <br />
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br /> commodo consequat.
+        </span>
+        <div class="span-bottom">
+          <span >Tutorial Link In Video Description</span>
+          <div class="change-img">
+            <img src="./img/pepsi-blue.png" alt="b" onclick="oneClick()" class="img-min">
+            <img src="./img/pepsi-white2.png" alt="w" onclick="twoClick()" class="img-min">
+            <img src="./img/pepsi-black.png" alt="b" onclick="threeClick()" class="img-min">
+          </div>
+        </div>
+      </div>
+      <div class="main-right">
+        <img src="./img/pepsi-blue.png" alt="blue" id="main-img">
+      </div>
+    </div>
+    <!-- slider -->
+     <div class="test">
+      <div class="box" >
+        <span style="--i:1;"><img src="./img/pepsi-blue.png" alt="one" class="img"></span>
+        <span style="--i:2;"><img src="./img/pepsi-white2.png" alt="two" class="img"></span>
+        <span style="--i:3;"><img src="./img/pepsi-black.png" alt="three" class="img"></span>
+        <span style="--i:4;"><img src="./img/pepsi-yellow.png" alt="four" class="img"></span>
+        <span style="--i:5;"><img src="./img/pepsi-white.png" alt="three" class="img"></span>
+        <span style="--i:6;"><img src="./img/pepsi-blue2.png" alt="four" class="img"></span>
+      </div>
+     </div>
+     <!--  -->
+
+      <div class=" feature">
+        <div class=" gs_reveal animate-left">
+            <img src="./img/pepsiCherry1.png" alt="" class="cherry-red">
+        </div>
+        <div class=" gs_reveal animate-right">
+          <img src="./img/pepsiCherry2.png" alt="" class="cherry-orange">
+        </div>
+      </div>
+    <!--  -->
+
+    <div class="nav-wrap">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <span data-text="WILDCHERRY" class="span-hover">WILDCHERRY</span>
+          <img src="./img/one.jpg" alt="o" class="old">
+        </li>
+        <li class="nav-item">
+          <img src="./img/two.jpg" alt="e" class="even">
+          <span data-text="ZEROCHERRY" class="span-hover">ZEROCHERRY</span>
+        </li>
+        <li class="nav-item">
+          <span data-text="MANGO" class="span-hover">MANGO</span>
+          <img src="./img/three.jpg" alt="o" class="old">
+        </li>
+        <li class="nav-item">
+          <img src="./img/four.jpg" alt="e" class="even">
+          <span data-text="ZEROMANGO" class="span-hover">ZEROMANGO</span>
+        </li>
+        <li class="nav-item">
+          <span data-text="DIETCHERRY" class="span-hover">DIETCHERRY</span>
+          <img src="./img/pepsiCherry2.png" alt="o" class="old">
+        </li>
+      </ul>
+      
+    </div>
+    <div class="video">
+      <video  autoplay loop muted>
+        <source src="https://video.twimg.com/tweet_video/E-s-TmQWQAgRBnd.mp4" type="video/mp4">
+      </video>
+      <img src="./img/social-twitter.png" alt="">
+      <video  autoplay loop muted>
+        <source src="https://video.twimg.com/tweet_video/FBgQLWzWYAcmew8.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="last">
+      <span class="last-span">Pepsi Stories</span>
+      <p>In 1965, Donald Kendall, the CEO of Pepsi-Cola, and Herman Lay, the CEO of Frito-Lay, recognized what they called “a marriage made in heaven,” 
+        a single company delivering perfectly-salty snacks served alongside the best cola on earth. Their vision led to what quickly became one of the world's 
+        leading food and beverage companies: PepsiCo.</p>
+      <span >Brand Ambassador</span>  
+      <div class="last-box">
+        <div>
+          <img src="./img/messi.jpg" alt="">
+          <div>Messi</div>
+        </div>
+        <div>
+          <img src="./img/lisa.jpg" alt="">
+          <div>Lisa</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-img">
+        <span>the unknown</span>
+        <p>Every Story Starts From The End</p>
+      </div>
+    </div>
+    <!--  -->
+    
+    <script>
+        
+function animateFrom(elem, direction) {
+  direction = direction || 1;
+  var x = 0,
+      y = direction * 100;
+  if(elem.classList.contains("animate-left")) {
+    x = -400;
+    y = 0;
+  } else if (elem.classList.contains("animate-right")) {
+    x = 400;
+    y = 0;
+  }
+  elem.style.transform = "translate(" + x + "px, " + y + "px)";
+  elem.style.opacity = "0";
+  gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
+    duration: 4, 
+    x: 0,
+    y: 0, 
+    autoAlpha: 1, 
+    ease: "slow", 
+    overwrite: "auto"
+  });
+ 
+}
+
+function hide(elem) {
+  gsap.set(elem, {autoAlpha: 0});
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  gsap.registerPlugin(ScrollTrigger);
+  
+  gsap.utils.toArray(".gs_reveal").forEach(function(elem) {
+    hide(elem); // assure that the element is hidden when scrolled into view
+    
+    ScrollTrigger.create({
+      trigger: elem,
+      onEnter: function() { animateFrom(elem) }, 
+      onEnterBack: function() { animateFrom(elem, -1) },
+      onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
+    });
+  });
+});
+
+
+    </script>
+    <script src="gsap.js"></script>
+</body>
+</html>
