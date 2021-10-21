@@ -57,14 +57,9 @@ words.forEach(word => {
     masterTl.add(tl)
 });
 gsap.from('.intro-img-background',{opacity: 0, duration: 2, y: 100, ease:"power3", delay: 5});
+gsap.fromTo('.main',{opacity: 0, display:"none", x: -100}, {opacity: 1, display:"flex", x: 0, duration:2, delay:5} );
 gsap.from('.test',{opacity: 0, duration: 2, y: 100, ease:"power3", delay: 5});
-gsap.from('.main',{opacity: 0, duration: 2, x: -100, ease:"slow", delay: 5});
-
-gsap.fromTo('.feature',{opacity: 0, display:"none", x: -100}, {opacity: 1, display:"flex", x: 0, duration:2, delay:6} );
-gsap.fromTo('.nav-wrap' ,{opacity: 0, display:"none", y: 100}, {opacity: 1, display:"block", y: 0, duration:2, delay:6} );
-gsap.fromTo('.video',{opacity: 0, display:"none", x: -100}, {opacity: 1, display:"flex", x: 0, duration:2, delay:6} );
-gsap.fromTo('.last',{opacity: 0, display:"none", y: 100}, {opacity: 1, display:"block", y: 0, duration:2, delay:6} );
-gsap.fromTo('.footer',{opacity: 0, display:"none", y: 100}, {opacity: 1, display:"block", y: 0, duration:2, delay:6} );
+gsap.fromTo('.nav',{opacity: 0, display:"none", x: -100}, {opacity: 1, display:"block", x: 0, duration:2, delay:6} );
 }
 img();
 
