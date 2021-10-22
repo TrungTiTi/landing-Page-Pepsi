@@ -86,7 +86,7 @@
         text-align: center;
     }
     .nav-item span:hover:before{
-        width: 88%;
+        width: 86%;
     }
     .even{
         display: flex;
