@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
     let textCursor = document.querySelector(".text-home");
     let textHover = document.querySelectorAll(".text-hover");
     let textImg = document.querySelectorAll(".span-hover");
-
+    let footerHover = document.querySelector(".footer");
 // hover menu
     textCursor.addEventListener("mouseleave", () =>{
     mouseCursor.classList.remove("link-home"); 
@@ -22,6 +22,13 @@ gsap.registerPlugin(ScrollTrigger);
             mouseCursor.classList.add("link-hover"); 
         });
     }
+// 
+    footerHover.addEventListener("mouseleave", () =>{
+    mouseCursor.classList.remove("five"); 
+    });
+    footerHover.addEventListener("mouseover", () =>{
+        mouseCursor.classList.add("five"); 
+    });
 // hover text and image
 function mouseHover(text, a){
     textImg[a].addEventListener("mouseleave", () =>{
@@ -56,7 +63,7 @@ words.forEach(word => {
     });
     masterTl.add(tl)
 });
-gsap.from('.intro-img-background',{opacity: 0, duration: 2, y: 100, ease:"power3", delay: 5});
+gsap.from('.intro-img',{opacity: 0, duration: 2, y: 100, ease:"power3", delay: 5});
 gsap.fromTo('.main',{opacity: 0, display:"none", x: -100}, {opacity: 1, display:"flex", x: 0, duration:2, delay:5} );
 gsap.from('.test',{opacity: 0, duration: 2, y: 100, ease:"power3", delay: 5});
 gsap.fromTo('.nav',{opacity: 0, display:"none", x: -100}, {opacity: 1, display:"block", x: 0, duration:2, delay:6} );

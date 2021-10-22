@@ -1,0 +1,118 @@
+/* 1024 */
+@media only screen and (max-width:1200px) {
+    .main{
+        display: block !important;
+    }
+    .main-left{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        padding: 0;
+        width: 100%;
+    }
+    .main-left p{
+        margin: auto 0;
+    }
+    .main-center{
+        width: 100%;
+        text-align: center;
+    }
+    .main-right{
+        padding-left: 3vw;
+        padding-top: 30px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+/*  */
+@media only screen and (max-width: 1200px) {
+    .intro-img{
+        height: 1250px ;
+    }
+}
+/*  */
+@media only screen and (max-width: 1280px) and (min-width: 1200px) {
+    .test{
+        right: 200px;
+    }
+}
+/*  */
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .test{
+        right: 160px;
+    }
+    .nav-item{
+        font-size: 50px;
+    }
+    .one, .two, .three, .four{
+        transform: scale(3);
+    }
+}
+/*  */
+@media only screen and (max-width: 576px) {
+    .intro-header h1{
+        font-size: 60px;
+    }
+    .intro-img{
+        height: 1560px ;
+    }
+    .link-hover{
+        transform: scale(2);
+    }
+    .main-right{
+        text-align: center;
+        padding-left:0 ;
+    }
+    .main-left p:hover::before{
+        width: 60px;
+    }
+    .test{
+        display: none;
+    }
+    .feature{
+        overflow: hidden;
+    }
+    .zero, .one, .two, .three, .four{
+        transform: scale(3);
+    }
+    .five{
+        transform: scale(2);
+        border-radius: 50%;
+    }
+    .nav-item{
+        font-size: 50px;
+        display: block;
+        text-align: center;
+    }
+    .nav-item span:hover:before{
+        width: 88%;
+    }
+    .even{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .even img{
+        margin: 0 auto;
+    }
+    .video{
+        display: block;
+    }
+    .video video{
+        display: block;
+        width: 100%;
+    }
+    .video img{
+        width: 100%;
+    }
+    .last-box{
+        display: block;
+    }
+    .footer{
+        padding: 100px 0;
+        height: 300px;
+    }
+    .footer span{
+        font-size: 50px;
+    }
+}
