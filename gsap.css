@@ -132,7 +132,8 @@ body{
     font-family: Cervo Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .main-center .span-three{
-    font-family: -webkit-pictograph;
+    font-family: system-ui;
+    font-size: 18px;
 }
 .main-center .span-bottom{
     margin-top: 60px;
